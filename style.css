@@ -141,7 +141,7 @@ body{
   margin: 10px;
   color: #111;
   border-radius: 8px;
-  margin-left: -120px;
+  margin-left: -110px;
   transition: 0.6 all;
 }
 .side a:hover{
@@ -254,7 +254,6 @@ body{
 }
 .sedat2{
 height: 100vh;
-  background: url(bg.jpg) no-repeat center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -340,4 +339,89 @@ height: 100vh;
   background: #bbb;
 }
 
+
+#btn{
+  width: 265px;
+  height: 80px;
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  background: #08ceff;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#btn:before{
+  color: white;
+  font-family: sans-serif;
+  content: 'Discord`a Ekle';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  transition: all 0.5s;
+}
+#btn:hover:before{
+  top: -30px;
+}
+#btn:after{
+  color: white;
+  font-family: sans-serif;
+  content: 'Discord`a Ekle';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  transition: all 0.5s;
+  top: 140%;
+}
+#btn:hover:after{
+  top: 50%;
+}
+
+
+#btn1{
+  width: 265px;
+  height: 80px;
+  position: absolute;
+  top: 75%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+  background: #ffc107;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#btn1:before{
+  color: white;
+  font-family: sans-serif;
+  content: 'Oy ver';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  transition: all 0.5s;
+}
+#btn1:hover:before{
+  top: -30px;
+}
+#btn1:after{
+  color: white;
+  font-family: sans-serif;
+  content: 'Oy ver';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  transition: all 0.5s;
+  top: 140%;
+}
+#btn1:hover:after{
+  top: 50%;
+}
 
